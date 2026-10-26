@@ -57,6 +57,7 @@ const Task = () => {
     setTask(task.filter((t) => t.id !== id));
   };
 
+  //done with the project....
   return (
     <div>
       <div className=" w-3xl flex items-center justify-between mt-5 py-3 px-4 mb-5">
